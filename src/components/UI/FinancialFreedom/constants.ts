@@ -4,53 +4,50 @@ import ic_circle_stack from '../../../../public/svgs/ic_circle_stack.svg';
 import ic_arrows_left_right from '../../../../public/svgs/ic_arrows_right_left.svg';
 
 // For desktop
-export const desktopHeaderPhrase = ['Your Financial Freedom,', 'Your Way'];
+export const desktopHeaderPhrase = ['Your Brand, Your Way'];
 export const desktopParagraphPhrase = [
-  'We believe that managing your finances should be effortless and cost-effective.',
-  "That's why we offer you the freedom you deserve.",
+  'We believe that showcasing your products should be simple, powerful, and affordable.',
+  "That’s why we give you the creative freedom and support to make your brand stand out.",
 ];
 export const desktopBriefNotePhrase = [
-  'Smart investments,',
-  'secure payments, and',
-  'expert guidance, all in',
+  'Creative campaigns,',
+  'strategic promotion, and',
+  'branding expertise, all in',
   'one place.',
 ];
 
 // For mobile
-export const mobileHeaderPhrase = ['Your Financial', 'Freedom, Your Way'];
+export const mobileHeaderPhrase = ['Your Brand, Your Way'];
 export const mobileParagraphPhrase = [
-  'We believe that managing your finances should be',
-  "effortless and cost-effective. That's why we offer",
-  ' you the freedom you deserve.',
+  'We believe that showcasing your products should be',
+  "simple, powerful, and affordable.",
+  'That’s why we give you the creative freedom and support to make your brand stand out.',
 ];
 
 export const mobileBriefNotePhrase = [
-  'Smart',
-  ' investments,',
-  'secure',
-  ' payments,',
-  'and expert',
-  'guidance, all',
-  'in one place.',
+ 'Creative campaigns,',
+  'strategic promotion, and',
+  'branding expertise, all in',
+  'one place.',
 ];
 
 export const edges = [
   {
-    point: 'No minimum balance fees',
+    point: '🎯 No minimum campaign size',
     details:
-      'Say goodbye to minimum balance fees. Your account, your balance—no hidden charges',
+      "Whether you're a startup or a big brand, we support campaigns of all sizes—no minimums required.",
     icon: ic_banknotes,
   },
   {
-    point: 'No monthly fees',
+    point: '💼 No monthly retainers',
     details:
-      'Bank with us without worrying about monthly fees. Keep more of your money where it belongs—in your account',
+      'Only pay for the services you need, when you need them—no ongoing fees or commitments.',
     icon: ic_circle_stack,
   },
   {
-    point: 'No bank transfer fees',
+    point: '🚫 No hidden costs',
     details:
-      'Seamlessly transfer funds without the extra cost. Send and receive money with zero bank transfer fees.',
+      'Clear, upfront pricing for every service. What you see is exactly what you pay.',
     icon: ic_arrows_left_right,
   },
 ];

@@ -19,23 +19,23 @@ export const animate = {
 
 export const faqData: FAQItem[] = [
   {
-    question: 'How do I create an account with RAFT?',
+    question: 'How do I get started with your advertising services?',
     answer:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+      'Simply reach out through our contact form or book a free consultation, and our team will guide you through the onboarding process.',
   },
   {
-    question: 'How does RAFT ensure the security of my financial data?',
+    question: 'What types of businesses do you work with?',
     answer:
-      'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
+      "We work with Berlin's startups, small businesses, and established brands across various industries looking to boost their visibility and reach.",
   },
   {
-    question: 'What types of transactions can I perform with RAFT?',
+    question: 'how many episodes per a campaign?',
     answer:
-      'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
+      '4 episodes per campaign , each episode is 3-4 mintues long. This allows us to create engaging and informative content that resonates with your audience.',
   },
   {
-    question: 'What benefits does RAFT offer for wealth management?',
+    question: 'How long does it take to launch a campaign?',
     answer:
-      'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
+      'Timelines vary based on campaign size, but most projects are up and running within 2 to 3 weeks after kickoff.',
   },
 ];

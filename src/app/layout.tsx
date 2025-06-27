@@ -3,8 +3,8 @@ import './globals.css';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Raft',
-  description: 'Building the future of banking',
+  title: 'U8 Media',
+  description: 'Building the future of your brand',
 };
 
 export default function RootLayout({

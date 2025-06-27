@@ -12,34 +12,35 @@ export type Props = {
 export const testimonials = [
   {
     testimony:
-      "RAFT has transformed my approach to finance. Their smart investing options have helped me grow my wealth, and their user-friendly platform makes managing my money a breeze. I've never felt more confident about my financial future.",
+      "Partnering with your team completely changed how we approach marketing. The branding campaign you ran gave our product a fresh identity—and our sales skyrocketed.",
     person: 'Robert Fox',
     avatar: robert_fox,
   },
   {
     testimony:
-      "I can't express how grateful I am to RAFT. Their wealth management services have been a game-changer for my family's financial security. The expert guidance and personalized strategies have given us peace of mind, knowing that our future is in capable hands.",
+      "From the first meeting to the final campaign, the process was seamless. The creative team truly understood our brand and delivered outstanding results.",
     person: 'Cameron Williamson',
     avatar: cameron_williamson,
   },
   {
     testimony:
-      "RAFT's financial planning services have been a lifeline for me. I always struggled with managing my money, but their team crafted a tailored plan that addressed my goals and concerns. It's been a game-changer in achieving my financial dreams",
+      "Thanks to your advertising strategies, our startup gained the visibility we needed. We've seen massive growth in traffic and engagement across all platforms.",
     person: 'Esther Howard',
     avatar: esther_howard,
   },
   {
     testimony:
-      "I can't express how grateful I am to RAFT. Their wealth management services have been a game-changer for my family's financial security. The expert guidance and personalized strategies have given us peace of mind, knowing that our future is in capable hands.",
+      "What impressed me most was the attention to detail. Every piece of content felt tailor-made for our audience—and it worked. Our brand has never looked better.",
     person: 'Cameron Williamson',
     avatar: cameron_williamson,
   },
   {
     testimony:
-      "RAFT has transformed my approach to finance. Their smart investing options have helped me grow my wealth, and their user-friendly platform makes managing my money a breeze. I've never felt more confident about my financial future.",
+      "Your branding expertise brought our vision to life. We’ve had more customer inquiries in the past month than we had in the last year.",
     person: 'Robert Fox',
     avatar: robert_fox,
   },
 ];
 
-export const desktopHeaderPhrase = ['Join over 3 million', 'members'];
+
+export const desktopHeaderPhrase = ['Trusted by Brands', ' Like Yours'];

@@ -12,14 +12,22 @@ import {
 export default function Home() {
   return (
     <main>
-      <HeroSection />
-      <Featured />
-      <OffersSection />
-      <FinancilaFreedom />
-      <FinancialFuture />
-      <IntroSection />
-      <JoinSection />
-      <FAQ />
+      <section id="intro">
+        <HeroSection />
+        <Featured />
+      </section>
+      <section id="services">
+        <OffersSection />
+        <FinancilaFreedom />
+      </section>
+      {/* <section id="future">
+        <FinancialFuture />
+        <IntroSection />
+      </section> */}
+      <section id="faq">
+        <JoinSection />
+        <FAQ />
+      </section>
     </main>
   );
 }
