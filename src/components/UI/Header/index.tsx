@@ -10,7 +10,7 @@ import {
   AbsoluteLinks,
   BurgerMenu,
 } from './styles';
-import raft_logo from '../../../../public/svgs/raft_logo.svg';
+import raft_logo from '../../../../public/images/logo1.png';
 import ic_bars from '../../../../public/svgs/ic_bars.svg';
 import { GetStartedButton } from '@/components';
 import AnimatedLink from '@/components/Common/AnimatedLink';
@@ -24,7 +24,7 @@ const Header = () => {
     <Wrapper>
       <Inner>
         <LogoContainer>
-          <Image src={raft_logo} alt="raft_logo" priority />
+          <Image src={raft_logo} alt="raft_logo" height={50} width={50}priority />
           <BurgerMenu onClick={() => setIsOpen(!isOpen)}>
             <motion.div
               variants={menu}
@@ -40,7 +40,7 @@ const Header = () => {
           ))}
         </Nav>
         <CallToActions className={isOpen ? 'active' : ''}>
-          <AnimatedLink title="Login" />
+       {/*    <AnimatedLink title="Login" /> */}
           <GetStartedButton padding="0.5rem 0.75rem" />
         </CallToActions>
       </Inner>

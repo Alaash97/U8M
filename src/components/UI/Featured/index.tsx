@@ -1,9 +1,9 @@
 'use client';
 import Image from 'next/image';
-import big_banner from '../../../../public/images/big_banner.png';
-import featured_mobile_banner from '../../../../public/images/featured_mobile_banner.png';
+import big_banner from '../../../../public/images/banner1.jpg';
+import featured_mobile_banner from '../../../../public/images/banner1.jpg';
 import ParallaxText from '@/components/Common/ParallaxImages';
-import companies_image from '../../../../public/images/companies.png';
+import companies_image from '../../../../public/images/socialmedia.png';
 import { Wrapper, Inner, ImageContainer, ParallaxImages, Div } from './styles';
 import RevealCover from '@/components/Common/RevealCover';
 import { useIsMobile } from '../../../../libs/useIsMobile';

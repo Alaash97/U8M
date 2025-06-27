@@ -1,47 +1,47 @@
-import seamless_payments from '../../../../public/images/seamless_payments.png';
-import smart_investing from '../../../../public/images/smart_investing.png';
-import wealth_management from '../../../../public/images/wealth_management.png';
-import financial_planning from '../../../../public/images/financial_planning.png';
+import seamless_payments from '../../../../public/images/marketing.png';
+import smart_investing from '../../../../public/images/content.png';
+import wealth_management from '../../../../public/images/influencer.png';
+import financial_planning from '../../../../public/images/branding.png';
 // For desktop
 export const desktopHeaderPhrases = [
   'Elevate Your Financial',
-  'Journey with RAFT',
+  'Journey with U8M',
 ];
 export const desktopParagraphPhrase = [
-  'RAFT offers a world of financial possibilities. From investments to payments,',
-  "we've got you covered. Join us and unlock your potential today.",
+  'We are a results-driven advertising company dedicated to promoting our clients’ products ',
+  "through innovative branding and strategic marketing services."
 ];
 
 // For mobile
 export const mobileParagraphPhrase = [
-  'RAFT offers a world of financial possibilities. From',
-  "investments to payments, we've got you covered.",
-  'Join us and unlock your potential today.',
+  'We are a results-driven advertising company',
+  "dedicated to promoting our clients’ products ",
+  'through innovative branding and strategic marketing services',
 ];
 
 export const offers = [
   {
     illustration: seamless_payments,
-    title: 'Seamless Payments',
+    title: 'Social Media Marketing',
     details:
-      'Enjoy secure, seamless transactions that make managing your money a breeze.',
+      "We create and manage targeted social media campaigns to boost your brand's online presence and engagement.",
   },
   {
     illustration: smart_investing,
-    title: 'Smart Investing',
+    title: 'Content Creation',
     details:
-      'Grow your wealth confidently with our personalized investment solutions, tailored to your financial goals.',
+      'Our team produces high-quality visuals and copy that align with your brand and captivate your audience.',
   },
   {
     illustration: wealth_management,
-    title: 'Wealth Management',
+    title: 'Influencer Partnerships',
     details:
-      'Make informed decisions for your financial future with our wealth management expertise.',
+      'We connect your brand with trusted influencers to amplify your reach and drive authentic promotion.',
   },
   {
     illustration: financial_planning,
-    title: 'Financial Planning',
+    title: 'Brand Strategy & Identity',
     details:
-      'Achieve your financial dreams with our comprehensive financial planning services, guiding you toward a secure future.',
+      "We help define your brand's voice, values, and visual identity for a strong, consistent market presence.",
   },
 ];

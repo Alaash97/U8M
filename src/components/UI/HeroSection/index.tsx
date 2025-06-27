@@ -18,7 +18,7 @@ const HeroSection = () => {
     <Wrapper>
       <Inner>
         <Pill>
-          <span>Introducing Raft cards</span>
+          <span>Welcome To U8 Media Website!</span>
           <Image src={ic_chevron_right} alt="chevron-right" />
         </Pill>
         <HeroTextContainer>

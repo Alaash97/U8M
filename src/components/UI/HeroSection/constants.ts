@@ -1,13 +1,13 @@
 // For desktop
-export const phrases = ['Building the future of', 'banking.'];
+export const phrases = ['Telling Berlin’s story'];
 export const paragraphPhrases = [
-  "Experience the future of banking with RAFT. We're here to",
-  'empower your financial journey.',
+  "through the voices of its people.",
+  'Berlin is shown through the lens of different cultures, backgrounds, and identities.',
 ];
 
 // For mobile
-export const mobilePhrases = ['Building the future', 'of banking'];
+export const mobilePhrases = ['Telling Berlin’s story'];
 export const mobileParagraphPhrases = [
-  "Experience the future of banking with RAFT. We're",
-  'here to empower your financial journey.',
+  "through the voices of its people.",
+  'Berlin is shown through the lens of different cultures, backgrounds, and identities.',
 ];
