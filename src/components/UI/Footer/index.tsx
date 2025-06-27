@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import raft_footer_logo from '../../../../public/images/logo2.png';
-import qr_code from '../../../../public/svgs/qr_code.svg';
+import qr_code from '../../../../public/svgs/qrcode.svg';
 import ic_google_playstore from '../../../../public/svgs/ic_google_playstore.svg';
 import ic_baseline_apple from '../../../../public/svgs/ic_baseline_apple.svg';
 import ic_chevron_down from '../../../../public/svgs/ic_chevron_down.svg';
@@ -50,10 +50,10 @@ const Footer = () => {
           <FooterMiddle>
             <QRContainer>
               <QRImageCtn>
-                <Image src={qr_code} alt="qr_code" />
+                <Image src={qr_code} alt="qr_code" height={150} width={150} />
               </QRImageCtn>
               <TextCtn>
-                <p>Scan to download App on the Playstore and Appstore.</p>
+                <p>Quick Inquiry via QR Code.</p>
                 <IconCtn>
                   <Image src={ic_google_playstore} alt="playstore icon" />
                   <Image src={ic_baseline_apple} alt="apple icon" />
