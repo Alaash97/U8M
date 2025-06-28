@@ -12,8 +12,8 @@ export const desktopParagraphPhrase = [
 export const desktopBriefNotePhrase = [
   'Creative campaigns,',
   'strategic promotion, and',
-  'branding expertise, all in',
-  'one place.',
+  'branding expertise, all in one place.',
+ 
 ];
 
 // For mobile

@@ -120,7 +120,7 @@ export const BriefNote = styled.div`
 
   p {
     color: var(--Background, #070606);
-    font-size: 8rem;
+    font-size: 5rem;
     font-weight: 400;
     max-width: 1440px;
   }
