@@ -9,14 +9,18 @@ import RevealCover from '@/components/Common/RevealCover';
 import { useIsMobile } from '../../../../libs/useIsMobile';
 export const imageVariants = {
   hidden: {
-    scale: 1.6,
+    scale: 1.8,
+    opacity: 0,
+    filter: "blur(8px)",
   },
   visible: {
     scale: 1,
+    opacity: 1,
+    filter: "blur(0px)",
     transition: {
-      duration: 1.4,
-      ease: [0.6, 0.05, -0.01, 0.9],
-      delay: 0.2,
+      duration: 1.6,
+      ease: [0.6, 0.05, 0.01, 0.9],
+      delay: 0.3,
     },
   },
 };
@@ -32,16 +36,24 @@ const Featured = () => {
             variants={imageVariants}
             initial="hidden"
             whileInView="visible"
-            viewport={{ amount: 0.25, once: true }}
+            viewport={{ amount: 0.3, once: true, margin: "-10%" }}
           >
             {isMobile ? (
               <Image
                 src={featured_mobile_banner}
                 alt="featured_mobile_banner"
                 fill
+                sizes="(max-width: 768px) 100vw, 90vw"
+                priority
               />
             ) : (
-              <Image src={big_banner} alt="big_banner" fill />
+              <Image 
+                src={big_banner} 
+                alt="big_banner" 
+                fill 
+                sizes="(max-width: 768px) 100vw, 90vw"
+                priority
+              />
             )}
           </Div>
         </ImageContainer>
